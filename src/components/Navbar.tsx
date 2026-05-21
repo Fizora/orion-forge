@@ -88,7 +88,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/our-team"
-            className="px-5 py-2 bg-black text-white text-sm font-black hover:bg-red-600 hover:text-black transition-all rounded-sm"
+            className="px-5 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white text-sm font-black transition-all rounded-sm"
           >
             OUR TEAM
           </Link>
@@ -96,7 +96,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden z-[110] p-2 relative w-8 h-8 focus:outline-none"
+          className="md:hidden z-100 p-2 relative w-8 h-8 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle Menu"
           aria-expanded={isOpen}
